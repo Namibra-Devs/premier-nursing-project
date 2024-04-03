@@ -1,0 +1,36 @@
+.body {
+    height: 100vh;
+  }
+  
+  .container-fluid.bg {
+    position: relative;
+    
+  }
+  
+  .overlay {
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+    background-blend-mode: overlay; 
+    height: 500px;
+  }
+  
+  .content {
+    text-align: center;
+    padding-top: 50px; 
+  }
+  
+  h1 {
+    text-align: center;
+    padding-top: 100px;
+  }
+  
+  .content h1 {
+    color: white;
+    font-family: sans-serif; 
+  }
+  
