@@ -1,6 +1,8 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 const Navbar = () => {
     return (
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <div>
+        <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container">
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ml-auto">
@@ -36,6 +38,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
+      </div>
     );
   }
   

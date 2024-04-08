@@ -2,36 +2,42 @@
     height: 100vh;
   }
   
-  /* .container-fluid.bg {
+  .container-fluid.bg {
     position: relative;
     
-  } */
+  }
   
   .overlay {
     background-size: cover;
     background-position: center;
-    /* position: absolute; */
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    
-    background-blend-mode: overlay; 
-    height: 500px;
+    height: 600px;
   }
   
   .content {
     text-align: center;
     padding-top: 50px; 
+    position: relative;
+    z-index: 1;
   }
   
-  h1 {
-    text-align: center;
-    padding-top: 100px;
-  }
+
   
   .content h1 {
     color: white;
     font-family: sans-serif; 
+  }
+
+  .content p {
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px; 
+    text-align: center;
+    line-height: 24px;
+    margin-top: 30px;
   }
 
   .welcome-img img {
@@ -44,7 +50,7 @@
   }
   .welcome-div {
     display: flex;
-    margin-top: -100px;
+    margin-top: 450px;
     margin-left: 80px;
     margin-right:60px
   }
@@ -63,6 +69,10 @@
     width: 250px; 
     height: 250px;
   }
+  .programs h1 {
+    text-align: center;
+    padding-top: 100px;
+  }
 
   .col-sm h1 {
     font-size: 16px;
@@ -70,6 +80,7 @@
 
   .row {
     display: flex;
+    flex-wrap: wrap; 
     justify-content: space-between; 
   }
   
@@ -94,6 +105,11 @@
   .programs h1 {
     margin-right:1050px;
     padding-bottom: 60px;
+  }
+
+  .admissions {
+    margin-top: 20px; 
+    flex-basis: 100%;
   }
 
 
