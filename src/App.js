@@ -2,6 +2,8 @@ import './App.css';
 import Header from './Header';
 import Navbar from './Navbar';
 import Body from './Body';
+import Contact from './Contact';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
       <Header />
       <Navbar />
       <Body />
+      <Contact />
+      <Footer />
     </div>
   );
 }
