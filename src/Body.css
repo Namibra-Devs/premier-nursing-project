@@ -33,6 +33,7 @@
   .content h1 {
     color: white;
     font-family: sans-serif; 
+    text-align: center;
     
   }
 
@@ -96,7 +97,6 @@
   }
 
   .news-items {
-    display: flex;
     margin-top: 50px;
     margin-left: 80px;
     margin-right:60px
@@ -114,7 +114,6 @@
 }
   
 .news-items2 {
-  display: flex;
   margin-top: 50px;
   margin-left: 80px;
   margin-right:60px
@@ -144,6 +143,10 @@
 .map {
   background: rgba(243, 213, 93, 1);
   margin-left: 400px;
+}
+
+.requirements {
+  margin-top: 50px;
 }
 
     

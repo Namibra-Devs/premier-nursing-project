@@ -30,4 +30,17 @@
     float: right;
   }
  
+  @media screen and (max-width: 600px) {
+    .header a.logo, .header a {
+      float: none;
+      display: block;
+      text-align: center;
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .header-right {
+      float: none;
+    }
+  }
   
