@@ -23,7 +23,7 @@
   .content {
     text-align: center;
     padding-top: 50px; 
-    position: relative;
+    /* position: relative; */
     z-index: 1;
     
   }
@@ -140,10 +140,10 @@
     ;
   }
 
-.map {
-  background: rgba(243, 213, 93, 1);
+/* .map {
+  
   margin-left: 400px;
-}
+} */
 
 .requirements {
   margin-top: 50px;

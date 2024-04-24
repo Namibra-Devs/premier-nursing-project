@@ -3,9 +3,9 @@ import map from './assets/images/map.png';
 const Contact = () => {
     return (
         <div className="contacts container">
-        <h2>Contact Us</h2>
+        <h2 style={{paddingTop:'20px'}}>Contact Us</h2>
         <div className="container" style={{display:'flex'}}>
-           <div className="form">
+           <div className="form" style={{paddingTop:'50px'}}>
              <form action="">
                <label>Name</label><br />
                <input type="text" style={{width:'400px',height:'40px',borderRadius:'5px'}}/><br />
@@ -17,12 +17,19 @@ const Contact = () => {
            
              </form>
            </div>
-           <div className="map" >
-             <img src={map} alt="" style={{width:'200px',height:'300px'}} />
+           <div className='d-flex'>
+           <div className="map" style={{ background: 'rgba(243, 213, 93, 1)', position: 'relative', width: '230px', height: '400px', left:'400px' }}>
+            <div className='' style={{position: 'absolute', right:'100px' ,top:'45px'}}>
+            <img src={map} alt="" style={{  width: '270px', height: '320px', }} />
+            </div>
            </div>
+
+           </div>
+
         </div>
 
-    </div>
+        </div>
+    
     );
   }
   

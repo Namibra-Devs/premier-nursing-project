@@ -28,8 +28,8 @@ const Body = () => {
                     backgroundImage: `linear-gradient(180deg, rgba(103, 103, 103, 0.5) 0%, #25166F 100%), url(${admissions})`,}}>
                   </div>
                   </div>
-                  <div className="col-lg-6">
-                    <div className="content">
+                  <div className="col-lg-6" style={{marginLeft:'350px'}}>
+                    <div className="content text-center" >
                     <h1>Admissions Requirements</h1>
                     <p>Lorem ipsum diolor emet atet  lorem ipsum dilore amet loremb <br /> iosum dilor amet lorem ipsum diilor amet ncdnd dnjsdkkdls <br /> jdslkdsp;mkldkmmckmm lksdls slddslkksd l</p>
                   </div>
@@ -39,12 +39,12 @@ const Body = () => {
 
         <div className="welcome-div container">
               <div className="row">
-                  <div className="col-lg-6">
+                  <div className="col-lg-6 col-md-12">
                     <div className="welcome-img">
                       <img src={welcome} alt="" />
                     </div>
                   </div>
-                  <div className="col-lg-6">
+                  <div className="col-lg-6 col-md-12">
                     <div className="welcome-text">
                       <h2>Welcome to PNC</h2>
                       <p id='text'>We are a premier institution dedicated to nurturing the next generation of healthcare professionals in Ghana. Established with a commitment to excellence, we take pride in providing top-tier education and practical training in the field of nursing. Our faculty comprises experienced healthcare experts who are passionate about shaping compassionate, skilled, and culturally competent nurses.</p>
@@ -186,9 +186,8 @@ const Body = () => {
 
         <div className="news container">
           <h2>News</h2>
-          <div className="row">
-              <div className="col-lg-6">
-                <div className="news-items container">
+              
+                <div className="news-items container d-flex">
                 <div className="news-img">
                   <img src={news3} alt="" />
                 </div>
@@ -198,9 +197,9 @@ const Body = () => {
                   <p>Check as we discuss the crucial role of reliable cell tower construction in ensuring seamless connectivity across Africa.</p>
                 </div>
                 </div>
-              </div>
-              <div className="col-lg-6">
-                <div className="news-items2 container">
+              
+          
+                <div className="news-items2 container d-flex">
                       <div className="news-img">
                       <img src={news4} alt="" />
                       </div>
@@ -211,73 +210,73 @@ const Body = () => {
                       </div>
 
                   </div>
-              </div>
-          </div>
-
-        </div>
-
-     <div className="events container">
-      <div className='container d-flex mt-5'>
-        <h2>Events</h2>
-        <div class="raw mb-3 mt-5" style={{maxWidth:'540px'}}>
-        <div class="row ">
-          <div class="col-md-4 ">
-            <img src={events1} class="img-fluid rounded-start" alt="..." style={{width:'160px',height:'120px'}} />
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Healthcare Innovation Summit</h5>
-              <p><FontAwesomeIcon icon={faCalendarAlt} style={{ marginRight: '5px' }}/>25th February, 2023</p>
-              <p><FontAwesomeIcon icon={faClock} style={{ marginRight: '5px' }}/>10:00am</p>
-              <p><FontAwesomeIcon icon={faClock} style={{ marginRight: '5px' }}/>School Auditorium, Tamale, Ghana</p>
-            
-            </div>
-          </div>
-        </div>
-        <div class="row mt-5">
-          <div class="col-md-4">
-            <img src={events2} class="img-fluid rounded-start" alt="..." style={{width:'160px',height:'120px'}} />
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Alumni Networking Mixer</h5>
-              <p><FontAwesomeIcon icon={faCalendarAlt} style={{ marginRight: '5px' }}/>26th February, 2023</p>
-              <p><FontAwesomeIcon icon={faClock} style={{ marginRight: '5px' }}/>10:00am</p>
-              <p><FontAwesomeIcon icon={faClock} style={{ marginRight: '5px' }}/>School Auditorium, Tamale, Ghana</p>
               
+          
+
+        </div>
+
+        <div className="events container">
+          <div className='container d-flex mt-5'>
+            <h2>Events</h2>
+            <div class="raw mb-3 mt-5" style={{maxWidth:'540px'}}>
+            <div class="row ">
+              <div class="col-md-4 ">
+                <img src={events1} class="img-fluid rounded-start" alt="..." style={{width:'160px',height:'120px'}} />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Healthcare Innovation Summit</h5>
+                  <p><FontAwesomeIcon icon={faCalendarAlt} style={{ marginRight: '5px' }}/>25th February, 2023</p>
+                  <p><FontAwesomeIcon icon={faClock} style={{ marginRight: '5px' }}/>10:00am</p>
+                  <p><FontAwesomeIcon icon={faClock} style={{ marginRight: '5px' }}/>School Auditorium, Tamale, Ghana</p>
+                
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="row mt-5">
-          <div class="col-md-4">
-            <img src={events1} class="img-fluid rounded-start" alt="..." style={{width:'160px',height:'120px'}} />
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">URL Shortner</h5>
-              <p><FontAwesomeIcon icon={faCalendarAlt} style={{ marginRight: '5px' }}/>25th February, 2023</p>
-              <p><FontAwesomeIcon icon={faClock} style={{ marginRight: '5px' }}/>10:00am</p>
-              <p><FontAwesomeIcon icon={faClock} style={{ marginRight: '5px' }}/>School Auditorium, Tamale, Ghana</p>
-             
+            <div class="row mt-5">
+              <div class="col-md-4">
+                <img src={events2} class="img-fluid rounded-start" alt="..." style={{width:'160px',height:'120px'}} />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Alumni Networking Mixer</h5>
+                  <p><FontAwesomeIcon icon={faCalendarAlt} style={{ marginRight: '5px' }}/>26th February, 2023</p>
+                  <p><FontAwesomeIcon icon={faClock} style={{ marginRight: '5px' }}/>10:00am</p>
+                  <p><FontAwesomeIcon icon={faClock} style={{ marginRight: '5px' }}/>School Auditorium, Tamale, Ghana</p>
+                  
+                </div>
+              </div>
             </div>
+            <div class="row mt-5">
+              <div class="col-md-4">
+                <img src={events1} class="img-fluid rounded-start" alt="..." style={{width:'160px',height:'120px'}} />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">URL Shortner</h5>
+                  <p><FontAwesomeIcon icon={faCalendarAlt} style={{ marginRight: '5px' }}/>25th February, 2023</p>
+                  <p><FontAwesomeIcon icon={faClock} style={{ marginRight: '5px' }}/>10:00am</p>
+                  <p><FontAwesomeIcon icon={faClock} style={{ marginRight: '5px' }}/>School Auditorium, Tamale, Ghana</p>
+                
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class="row mt-5">
+          
+            <div class="col-md-8" style={{ }}>
+              <div class="card-body text-center" style={{background: 'rgba(195, 185, 241, 1)',width:'360px',height:'280px', borderRadius:'8px',marginLeft:'200px'}}>
+                <p class="card-text text-center" style={{paddingTop:'50px'}}>Get a copy of the <br /> semester/sessional <br /> calendar</p>
+                <button type="button" class="btn btn-primary" style={{width:'265px',height:'40px'}}>Download/View</button>
+              </div> 
+            </div>
+            </div>
+            
+          </div>
+          <div className="container" >
+            <button className="btn btn-outline-primary" style={{marginLeft:'90px'}}>View All</button>
           </div>
         </div>
-        </div>
-        <div class="row mt-5">
-       
-        <div class="col-md-8" style={{ }}>
-          <div class="card-body text-center" style={{background: 'rgba(195, 185, 241, 1)',width:'360px',height:'280px', borderRadius:'8px'}}>
-            <p class="card-text text-center" style={{paddingTop:'50px'}}>Get a copy of the <br /> semester/sessional <br /> calendar</p>
-            <button type="button" class="btn btn-primary" style={{width:'265px',height:'40px'}}>Download/View</button>
-          </div> 
-        </div>
-        </div>
-        
-      </div>
-      <div className="container" >
-         <button className="btn btn-outline-primary" style={{marginLeft:'90px'}}>View All</button>
-      </div>
-     </div>
 
 
    </div>
