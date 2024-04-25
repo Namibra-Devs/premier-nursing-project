@@ -2,11 +2,8 @@
     height: 100vh;
    
   }
-  
   .container-fluid.bg {
     position: relative;
-    
-    
   }
   
   .overlay {
@@ -16,36 +13,32 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 600px;
-    
+    height: 100%; /* Change height to 100% for responsiveness */
   }
   
   .content {
     text-align: center;
-    padding-top: 50px; 
-    /* position: relative; */
+    padding: 70px 15px; /* Adjust padding for responsiveness */
+    position: relative;
     z-index: 1;
-    
+    margin-top: 50px;
   }
-  
-
   
   .content h1 {
     color: white;
-    font-family: sans-serif; 
+    font-family: sans-serif;
     text-align: center;
-    
   }
-
+  
   .content p {
     color: white;
     font-family: sans-serif;
-    font-size: 16px; 
+    font-size: 16px;
     text-align: center;
     line-height: 24px;
     margin-top: 30px;
   }
-
+  
   .welcome-img img {
     width: 513px;
     height: 476px;
@@ -85,7 +78,7 @@
   .col h3 {
     font-size: 28px;
   }
-
+/* 
   .btn {
     width: 1px;
     height: 56px;
@@ -94,7 +87,7 @@
     border: 1px solid transparent;
     
  
-  }
+  } */
 
   .news-items {
     margin-top: 50px;
@@ -153,7 +146,12 @@
   
   
   
-  
+@media screen and (max-width: 768px) {
+  /* Apply styles for screens smaller than 768px (e.g., tablets and mobile devices) */
+  .container-fluid.bg {
+    margin-right: 0; /* Adjust the margin-right as needed */
+  }
+}
 
 
 

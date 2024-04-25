@@ -2,7 +2,7 @@ import React from "react";
 import events1 from './assets/images/events1.jpeg';
 import events2 from './assets/images/events2.jpeg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAsterisk,faCalendarAlt,faClock } from '@fortawesome/free-solid-svg-icons';
+import { faCalendarAlt,faClock } from '@fortawesome/free-solid-svg-icons';
 
 
 function Events() {
@@ -65,9 +65,7 @@ function Events() {
           </div>
           
         </div>
-        <div className="container" >
-          <button className="btn btn-outline-primary" style={{marginLeft:'90px'}}>View All</button>
-        </div>
+        
       </div>
     )
 }
