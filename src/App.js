@@ -1,7 +1,7 @@
 import './App.css';
 import Header from './Header';
 import Navbar from './Navbar';
-import Body from './Body';
+import Home from './Home';
 import Contact from './Contact';
 import Footer from './Footer';
 import Admissions from './Admissions';
@@ -19,7 +19,7 @@ function App() {
         <Header />
         <Navbar />
         <Routes>
-          <Route path="/" element={<Body />} />
+          <Route path="/" element={<Home />} />
           <Route path="/Admissions" element={<Admissions />} />
           <Route path="/Events" element={<Events />} />
           <Route path="/Gallery" element={<Gallery />} />

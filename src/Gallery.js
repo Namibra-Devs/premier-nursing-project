@@ -51,7 +51,9 @@ function Gallery() {
                       <img className="img-fluid img-thumbnail" src={gallery1} alt=""/>
                     </a>
                 </div>
-                <button type="button" className="btn btn-outline-primary">View All</button>
+                <div  className="col-12 text-lg-end">
+              <a href="/Gallery"><button type="button" className="btn btn-outline-primary" style={{width:'150px'}}>View All</button></a>
+              </div>
             </div>
             
         </div>
