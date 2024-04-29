@@ -8,11 +8,11 @@ function News() {
       <div class="news container">
       <h2>News</h2>
     
-      <div class="news-div container">
+      <div class="news-div container h-50">
         <div class="row justify-content-center"data-aos="fade-right">
             <div class="col-lg-6 col-md-6 col-sm-12 mb-4 ">
                 <div class="welcome-img" >
-                    <img src={news3} alt="" className='w-100' />
+                    <img src={news3} alt="" className='w-75' />
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 mt-5">
@@ -26,11 +26,11 @@ function News() {
     </div>
      
     
-    <div class="news-div container">
+    <div class="news-div container h-50">
         <div class="row justify-content-center"data-aos="fade-left">
             <div class="col-lg-6 col-md-6 col-sm-12 mb-4">
                 <div class="welcome-img">
-                    <img src={news4} alt="" className='w-100' />
+                    <img src={news4} alt="" className='w-75' />
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 mt-5">

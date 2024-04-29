@@ -18,22 +18,45 @@ const Home = () => {
   AOS.init({ duration : 2000});
   return (
     <div>
-        <div className="container-fluid bg">
-  <div className="row">
-    <div className="col-lg-6">
-      <div className="overlay" style={{
-        backgroundImage: `linear-gradient(180deg, rgba(103, 103, 103, 0.5) 0%, #25166F 100%), url(${admissions})`,
-      }}>
+           <div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner" style={{ background: 'linear-gradient(180deg, rgba(103, 103, 103, 0.5) 0%, #25166F 100%)'
+}}>
+    <div class="carousel-item active h-25">
+    <img  style={{height:'90vh', objectFit:'cover'}} src={admissions} class="d-block w-100" alt="..."/>
+      <div class="carousel-caption d-md-block">
+        <h3>Admission Requirements</h3>
+        <p>Lorem ipsum diolor emet atet  lorem ipsum dilore amet lorem iosum dilor amet lorem ipsum diilor amet ncdnd dnjsdkkdls jdslkdsp;mkldkmmckmm lksdls slddslkksd l</p>
       </div>
     </div>
-    <div className="col-lg-6">
-      <div className="content text-center" data-aos="zoom-in" >
-        <h1 className='text-centre'>Admissions Requirements</h1>
-        <p>Lorem ipsum diolor emet atet  lorem ipsum dilore amet loremb <br /> iosum dilor amet lorem ipsum diilor amet ncdnd dnjsdkkdls <br /> jdslkdsp;mkldkmmckmm lksdls slddslkksd l</p>
+    <div class="carousel-item h-25">
+      <img style={{height:'90vh', objectFit:'cover'}} src={admissions} class="d-block w-100" alt="..."/>
+      <div class="carousel-caption d-md-block">
+        <h3>Admission Requirements</h3>
+        <p>Lorem ipsum diolor emet atet  lorem ipsum dilore amet lorem iosum dilor amet lorem ipsum diilor amet ncdnd dnjsdkkdls jdslkdsp;mkldkmmckmm lksdls slddslkksd l</p>
+      </div>
+    </div>
+    <div class="carousel-item h-25">
+      <img  style={{height:'90vh', objectFit:'cover'}} src={admissions} class="d-block w-100" alt="..."/>
+      <div class="carousel-caption d-md-block">
+        <h3>Admission Requirements</h3>
+        <p>Lorem ipsum diolor emet atet  lorem ipsum dilore amet lorem iosum dilor amet lorem ipsum diilor amet ncdnd dnjsdkkdls jdslkdsp;mkldkmmckmm lksdls slddslkksd l</p>
       </div>
     </div>
   </div>
-        </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+          </div>
 
         <div class="welcome-div container">
           <div class="row justify-content-center">
@@ -56,7 +79,7 @@ const Home = () => {
                 <div className="container" style={{marginTop:'30px'}}>
                   <div className="row justify-content-around">
                     <div className="col-md-4">
-                      <div className="card" data-aos="flip-left">
+                      <div className="card" data-aos="fade-right">
                         <img className="card-img-top img-fluid" src={programs1} alt="Card image cap" style={{height:'50vh'}} />
                         <div className="card-body">
                           <h5 className="card-title">Bachelor of Science in Nursing (BSN)</h5>
@@ -67,7 +90,7 @@ const Home = () => {
                     </div>
 
                     <div className="col-md-4">
-                      <div className="card" >
+                      <div className="card" data-aos="fade-down" >
                         <img className="card-img-top img-fluid" src={programs2} alt="Card image cap" style={{height:'50vh'}} />
                         <div className="card-body">
                           <h5 className="card-title">Master of Science in Nursing (MSN)</h5>
@@ -78,7 +101,7 @@ const Home = () => {
                     </div>
 
                     <div className="col-md-4">
-                      <div className="card" data-aos="flip-right">
+                      <div className="card" data-aos="fade-left">
                         <img className="card-img-top img-fluid" src={programs1} alt="Card image cap" style={{height:'50vh'}} />
                         <div className="card-body">
                           <h5 className="card-title">Doctor of Nursing Practice (DNP)</h5>
