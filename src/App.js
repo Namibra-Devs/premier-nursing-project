@@ -9,7 +9,6 @@ import Events from './Events';
 import Gallery from './Gallery';
 import Programs from './Programs';
 import News from './News';
-import Login from './Login';
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 
@@ -26,7 +25,7 @@ function App() {
           <Route path="/Gallery" element={<Gallery />} />
           <Route path="/Programs" element={<Programs />} />
           <Route path="/News" element={<News />} />
-          <Route path="/Login" element={<Login />} />
+         
         
           
         </Routes>

@@ -8,8 +8,8 @@ function News() {
       <div class="news container">
       <h2>News</h2>
     
-      <div class="news-div container h-50">
-        <div class="row justify-content-center"data-aos="fade-right">
+       <div class="news-div container h-50">
+        <div class="row justify-content-center">
             <div class="col-lg-6 col-md-6 col-sm-12 mb-4 ">
                 <div class="welcome-img" >
                     <img src={news3} alt="" className='w-75' />
@@ -23,11 +23,11 @@ function News() {
                 </div>
             </div>
         </div>
-    </div>
+       </div>
      
     
-    <div class="news-div container h-50">
-        <div class="row justify-content-center"data-aos="fade-left">
+      <div class="news-div container h-50">
+        <div class="row justify-content-center">
             <div class="col-lg-6 col-md-6 col-sm-12 mb-4">
                 <div class="welcome-img">
                     <img src={news4} alt="" className='w-75' />
@@ -41,12 +41,10 @@ function News() {
                 </div>
             </div>
         </div>
-    </div>
-    
-     <div  className="col-12 text-lg-end">
-              <a href="/Events"><button type="button" className="btn btn-outline-primary" style={{width:'150px'}}>View All</button></a>
       </div>
-            </div>
+    
+     
+      </div>
     
     )
     

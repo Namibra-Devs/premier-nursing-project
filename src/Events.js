@@ -56,19 +56,17 @@ function Events() {
         </div>
         <div class="row mt-5  ">
         <div class="col-md-8 w-100 d-flex justify-content-center " style={{width: '100vh', height:'40vh'}}>
-<div class="card-body text-center" style={{background: "rgba(195, 185, 241, 1)", borderRadius: "8px", width: "50vh "}}>
-    <p class="card-text text-center" style={{paddingTop: "50px"}}>Get a copy of the <br /> semester/sessional <br /> calendar</p>
-    <button type="button" class="btn btn-primary w-75">Download/View</button>
-</div> 
-</div>
+          <div class="card-body text-center" style={{background: "rgba(195, 185, 241, 1)", borderRadius: "8px", width: "50vh "}}>
+              <p class="card-text text-center" style={{paddingTop: "50px"}}>Get a copy of the <br /> semester/sessional <br /> calendar</p>
+              <button type="button" class="btn btn-primary w-75">Download/View</button>
+          </div> 
+        </div>
 
         </div>
         
       </div>
-      <div  className="col-12 text-lg-end">
-              <a href="/Events"><button type="button" className="btn btn-outline-primary" style={{width:'150px'}}>View All</button></a>
+     
       </div>
-    </div>
     )
 }
 
