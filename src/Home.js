@@ -6,7 +6,6 @@ import programs2 from './assets/images/programs2.jpeg';
 import gallery1 from './assets/images/gallery1.jpeg';
 import gallery2 from './assets/images/gallery2.jpeg';
 import gallery3 from './assets/images/gallery3.jpeg';
-import gallery4 from './assets/images/gallery4.jpeg';
 import news3 from './assets/images/news3.jpeg';
 import news4 from './assets/images/news4.jpeg';
 import events1 from './assets/images/events1.jpeg';
@@ -15,7 +14,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAsterisk,faCalendarAlt,faClock,faLongArrowRight } from '@fortawesome/free-solid-svg-icons';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import React, { Component } from 'react'
+
 
 
 const Home = () => {
@@ -31,21 +30,21 @@ const Home = () => {
       <div class="carousel-inner" style={{ background: 'linear-gradient(180deg, rgba(103, 103, 103, 0.5) 0%, #25166F 100%)'
       }}>
       <div class="carousel-item active h-25">
-      <img  style={{height:'90vh', objectFit:'cover'}} src={admissions} class="d-block w-100" alt="..."/>
+      <img  style={{height:'90vh', objectFit:'cover'}} src={admissions} class="d-block w-100"/>
         <div class="carousel-caption d-md-block">
           <h3>Admission Requirements</h3>
           <p>Lorem ipsum diolor emet atet  lorem ipsum dilore amet lorem iosum dilor amet lorem ipsum diilor amet ncdnd dnjsdkkdls jdslkdsp;mkldkmmckmm lksdls slddslkksd l</p>
         </div>
       </div>
       <div class="carousel-item h-25">
-        <img style={{height:'90vh', objectFit:'cover'}} src={admissions} class="d-block w-100" alt="..."/>
+        <img style={{height:'90vh', objectFit:'cover'}} src={admissions} class="d-block w-100" />
         <div class="carousel-caption d-md-block">
           <h3>Admission Requirements</h3>
           <p>Lorem ipsum diolor emet atet  lorem ipsum dilore amet lorem iosum dilor amet lorem ipsum diilor amet ncdnd dnjsdkkdls jdslkdsp;mkldkmmckmm lksdls slddslkksd l</p>
         </div>
       </div>
       <div class="carousel-item h-25">
-        <img  style={{height:'90vh', objectFit:'cover'}} src={admissions} class="d-block w-100" alt="..."/>
+        <img  style={{height:'90vh', objectFit:'cover'}} src={admissions} class="d-block w-100" />
         <div class="carousel-caption d-md-block">
           <h3>Admission Requirements</h3>
           <p>Lorem ipsum diolor emet atet  lorem ipsum dilore amet lorem iosum dilor amet lorem ipsum diilor amet ncdnd dnjsdkkdls jdslkdsp;mkldkmmckmm lksdls slddslkksd l</p>
@@ -66,7 +65,7 @@ const Home = () => {
           <div class="row justify-content-center">
               <div class="col-lg-6 col-md-6 col-sm-12 mb-4">
                   <div class="welcome-img" data-aos="fade-left">
-                      <img src={welcome} alt="" className='w-100' />
+                      <img src={welcome}  className='w-100' />
                   </div>
               </div>
               <div class="col-lg-6 col-md-6 col-sm-12 mt-5">
@@ -165,43 +164,43 @@ const Home = () => {
             <hr className="mt-2 mb-5"/>
             <div className="row text-center text-lg-start">
                 <div className="col-lg-3 col-md-4 col-6">
-                    <a href="#" className="d-block mb-4 h-100">
-                      <img className="img-fluid img-thumbnail" src={gallery1} alt=""/>
+                    <a className="d-block mb-4 h-100">
+                      <img className="img-fluid img-thumbnail" src={gallery1} />
                     </a>
                 </div>
                 <div className="col-lg-3 col-md-4 col-6">
-                    <a href="#" className="d-block mb-4 h-100">
-                      <img className="img-fluid img-thumbnail" src={gallery2} alt=""/>
+                    <a className="d-block mb-4 h-100">
+                      <img className="img-fluid img-thumbnail" src={gallery2} />
                     </a>
                 </div>
                 <div className="col-lg-3 col-md-4 col-6">
-                    <a href="#" className="d-block mb-4 h-100">
-                      <img className="img-fluid img-thumbnail" src={gallery3} alt=""/>
+                    <a className="d-block mb-4 h-100">
+                      <img className="img-fluid img-thumbnail" src={gallery3} />
                     </a>
                 </div>
                 <div className="col-lg-3 col-md-4 col-6">
-                    <a href="#" className="d-block mb-4 h-100">
-                      <img className="img-fluid img-thumbnail" src={gallery1} alt=""/>
+                    <a className="d-block mb-4 h-100">
+                      <img className="img-fluid img-thumbnail" src={gallery1} />
                     </a>
                 </div>
                 <div className="col-lg-3 col-md-4 col-6">
-                    <a href="#" className="d-block mb-4 h-100">
-                      <img className="img-fluid img-thumbnail" src={gallery1} alt=""/>
+                    <a className="d-block mb-4 h-100">
+                      <img className="img-fluid img-thumbnail" src={gallery1} />
                     </a>
                 </div>
                 <div className="col-lg-3 col-md-4 col-6">
-                    <a href="#" className="d-block mb-4 h-100">
-                      <img className="img-fluid img-thumbnail" src={gallery2} alt=""/>
+                    <a className="d-block mb-4 h-100">
+                      <img className="img-fluid img-thumbnail" src={gallery2} />
                     </a>
                 </div>
                 <div className="col-lg-3 col-md-4 col-6">
-                    <a href="#" className="d-block mb-4 h-100">
-                      <img className="img-fluid img-thumbnail" src={gallery3} alt=""/>
+                    <a className="d-block mb-4 h-100">
+                      <img className="img-fluid img-thumbnail" src={gallery3} />
                     </a>
                 </div>
                 <div className="col-lg-3 col-md-4 col-6">
-                    <a href="#" className="d-block mb-4 h-100">
-                      <img className="img-fluid img-thumbnail" src={gallery1} alt=""/>
+                    <a className="d-block mb-4 h-100">
+                      <img className="img-fluid img-thumbnail" src={gallery1} />
                     </a>
                 </div>
                 <div  className="col-12 text-lg-end">
@@ -218,7 +217,7 @@ const Home = () => {
         <div class="row justify-content-center"data-aos="fade-right">
             <div class="col-lg-6 col-md-6 col-sm-12 mb-4 ">
                 <div class="welcome-img" >
-                    <img src={news3} alt="" className='w-75' />
+                    <img src={news3}  className='w-75' />
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 mt-5">
@@ -236,7 +235,7 @@ const Home = () => {
         <div class="row justify-content-center"data-aos="fade-left">
             <div class="col-lg-6 col-md-6 col-sm-12 mb-4">
                 <div class="welcome-img">
-                    <img src={news4} alt="" className='w-75' />
+                    <img src={news4} className='w-75' />
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 mt-5">
@@ -260,7 +259,7 @@ const Home = () => {
         <div class="raw mb-3 " style={{maxWidth:'540px', marginTop:'100px'}}>
         <div class="row ">
           <div class="col-md-4 ">
-            <img src={events1} class="img-fluid rounded-start" alt="..." style={{width:'160px',height:'120px'}} />
+            <img src={events1} class="img-fluid rounded-start" style={{width:'160px',height:'120px'}} />
           </div>
           <div class="col-md-8">
             <div class="card-body">
@@ -274,7 +273,7 @@ const Home = () => {
         </div>
         <div class="row mt-5">
           <div class="col-md-4">
-            <img src={events2} class="img-fluid rounded-start" alt="..." style={{width:'160px',height:'120px'}} />
+            <img src={events2} class="img-fluid rounded-start"  style={{width:'160px',height:'120px'}} />
           </div>
           <div class="col-md-8">
             <div class="card-body">
@@ -288,7 +287,7 @@ const Home = () => {
         </div>
         <div class="row mt-5">
           <div class="col-md-4">
-            <img src={events1} class="img-fluid rounded-start" alt="..." style={{width:'160px',height:'120px'}} />
+            <img src={events1} class="img-fluid rounded-start"  style={{width:'160px',height:'120px'}} />
           </div>
           <div class="col-md-8">
             <div class="card-body">
