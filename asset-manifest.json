@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/premier-nursing-project/static/css/main.f2b7e7f7.css",
+    "main.js": "/premier-nursing-project/static/js/main.46849bf8.js",
+    "static/media/admissions.jpeg": "/premier-nursing-project/static/media/admissions.76ca4cee431fdcf3b800.jpeg",
+    "static/media/map.png": "/premier-nursing-project/static/media/map.083c5b72953c2553a058.png",
+    "static/media/events2.jpeg": "/premier-nursing-project/static/media/events2.f09a097612d6f3604beb.jpeg",
+    "static/media/welcome.jpeg": "/premier-nursing-project/static/media/welcome.4c1567a9840d9e1f0848.jpeg",
+    "static/media/programs1.jpeg": "/premier-nursing-project/static/media/programs1.3235423a5ffb83b2e9a6.jpeg",
+    "static/media/news3.jpeg": "/premier-nursing-project/static/media/news3.ffc1d05ffef75ca9edea.jpeg",
+    "static/media/news4.jpeg": "/premier-nursing-project/static/media/news4.61c7fffdd5c48cb6487a.jpeg",
+    "static/media/gallery1.jpeg": "/premier-nursing-project/static/media/gallery1.fa27f96525a15fdb8330.jpeg",
+    "static/media/gallery3.jpeg": "/premier-nursing-project/static/media/gallery3.a4d4fb2eaa92be618c32.jpeg",
+    "static/media/programs2.jpeg": "/premier-nursing-project/static/media/programs2.3c3fa7bf1a66c9e19437.jpeg",
+    "static/media/programs3.jpeg": "/premier-nursing-project/static/media/programs3.c78eac193d779e7fcef9.jpeg",
+    "static/media/gallery2.jpeg": "/premier-nursing-project/static/media/gallery2.328a937c430ad31e2a7b.jpeg",
+    "static/media/events1.jpeg": "/premier-nursing-project/static/media/events1.74d8bc7cb0a17c4f1cdd.jpeg",
+    "index.html": "/premier-nursing-project/index.html",
+    "main.f2b7e7f7.css.map": "/premier-nursing-project/static/css/main.f2b7e7f7.css.map",
+    "main.46849bf8.js.map": "/premier-nursing-project/static/js/main.46849bf8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f2b7e7f7.css",
+    "static/js/main.46849bf8.js"
+  ]
+}
