@@ -12,42 +12,42 @@ function Gallery() {
             <hr className="mt-2 mb-5"/>
             <div className="row text-center text-lg-start">
                 <div className="col-lg-3 col-md-4 col-6">
-                    <a className="d-block mb-4 h-100">
+                    <a className="d-block mb-4 h-100" href="">
                       <img className="img-fluid img-thumbnail" src={gallery1} alt=""/>
                     </a>
                 </div>
-                <div className="col-lg-3 col-md-4 col-6">
-                    <a className="d-block mb-4 h-100">
+                <div className="col-lg-3 col-md-4 col-6" >
+                    <a className="d-block mb-4 h-100" href="">
                       <img className="img-fluid img-thumbnail" src={gallery2} alt=""/>
                     </a>
                 </div>
                 <div className="col-lg-3 col-md-4 col-6">
-                    <a className="d-block mb-4 h-100">
+                    <a className="d-block mb-4 h-100" href="">
                       <img className="img-fluid img-thumbnail" src={gallery3} alt=""/>
                     </a>
                 </div>
                 <div className="col-lg-3 col-md-4 col-6">
-                    <a className="d-block mb-4 h-100">
+                    <a className="d-block mb-4 h-100" href="">
                       <img className="img-fluid img-thumbnail" src={gallery1} alt=""/>
                     </a>
                 </div>
                 <div className="col-lg-3 col-md-4 col-6">
-                    <a className="d-block mb-4 h-100">
+                    <a className="d-block mb-4 h-100" href="">
                       <img className="img-fluid img-thumbnail" src={gallery1} alt=""/>
                     </a>
                 </div>
                 <div className="col-lg-3 col-md-4 col-6">
-                    <a className="d-block mb-4 h-100">
+                    <a className="d-block mb-4 h-100" href="">
                       <img className="img-fluid img-thumbnail" src={gallery2} alt=""/>
                     </a>
                 </div>
                 <div className="col-lg-3 col-md-4 col-6">
-                    <a className="d-block mb-4 h-100">
+                    <a className="d-block mb-4 h-100" href="">
                       <img className="img-fluid img-thumbnail" src={gallery3} alt=""/>
                     </a>
                 </div>
                 <div className="col-lg-3 col-md-4 col-6">
-                    <a className="d-block mb-4 h-100">
+                    <a className="d-block mb-4 h-100" href="">
                       <img className="img-fluid img-thumbnail" src={gallery1} alt=""/>
                     </a>
                 </div>
