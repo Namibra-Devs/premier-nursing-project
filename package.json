@@ -17,7 +17,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://<Namibra-Devs>.github.io/<premier-nursing-project>",
+  "homepage": "https://<RaymondBog>.github.io/<premier-nursing-project>",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
