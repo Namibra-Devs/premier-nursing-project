@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import './Home.css';
 import admissions from './assets/images/admissions.jpeg';
 import welcome from './assets/images/welcome.jpeg';
