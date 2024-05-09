@@ -84,7 +84,7 @@ const Home = () => {
                   <div className="row justify-content-around">
                     <div className="col-md-4">
                       <div className="card" data-aos="fade-right">
-                        <img className="card-img-top img-fluid" src={programs1} alt="Card image cap" style={{height:'50vh'}} />
+                        <img className="card-img-top img-fluid" src={programs1} alt="Card-cap" style={{height:'50vh'}} />
                         <div className="card-body">
                           <h5 className="card-title">Bachelor of Science in Nursing (BSN)</h5>
                           <p className="card-text">The BSN program is designed to provide students with a comprehensive education in nursing theory, clinical practice, and healthcare leadership. Graduates are prepared to deliver high-quality care across various healthcare settings.</p>
@@ -106,7 +106,7 @@ const Home = () => {
 
                     <div className="col-md-4">
                       <div className="card" data-aos="fade-left">
-                        <img className="card-img-top img-fluid" src={programs1} alt="Card image cap" style={{height:'50vh'}} />
+                        <img className="card-img-top img-fluid" src={programs1} alt="Card-cap" style={{height:'50vh'}} />
                         <div className="card-body">
                           <h5 className="card-title">Doctor of Nursing Practice (DNP)</h5>
                           <p className="card-text">The DNP program at [College Name] is designed for experienced nurses aspiring to attain the highest level of clinical expertise and leadership in healthcare. Graduates are prepared to lead in clinical practice, healthcare administration, and policy.</p>
@@ -186,7 +186,7 @@ const Home = () => {
                 </div>
                 <div className="col-lg-3 col-md-4 col-6">
                     <a className="d-block mb-4 h-100">
-                      <img className="img-fluid img-thumbnail" src={gallery1} />
+                      <img className="img-fluid img-thumbnail" src={gallery1} alt='' />
                     </a>
                 </div>
                 <div className="col-lg-3 col-md-4 col-6">
