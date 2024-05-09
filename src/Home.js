@@ -95,7 +95,7 @@ const Home = () => {
 
                     <div className="col-md-4">
                       <div className="card" data-aos="fade-down" >
-                        <img className="card-img-top img-fluid" src={programs2} alt="Card image cap" style={{height:'50vh'}} />
+                        <img className="card-img-top img-fluid" src={programs2} alt="Card-cap" style={{height:'50vh'}} />
                         <div className="card-body">
                           <h5 className="card-title">Master of Science in Nursing (MSN)</h5>
                           <p className="card-text">Our MSN program offers advanced training for registered nurses seeking to expand their expertise in specialized areas such as [Specialization]. With a focus on evidence-based practice and leadership, graduates are poised for leadership roles in healthcare.</p>
