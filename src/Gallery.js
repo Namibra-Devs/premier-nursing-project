@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import gallery1 from './assets/images/gallery1.jpeg';
 import gallery2 from './assets/images/gallery2.jpeg';
@@ -18,7 +17,7 @@ function Gallery() {
                     </a>
                 </div>
                 <div className="col-lg-3 col-md-4 col-6" >
-                    <a className="d-block mb-4 h-100" href="">
+                    <a className="d-block mb-4 h-100" >
                       <img className="img-fluid img-thumbnail" src={gallery2} alt=""/>
                     </a>
                 </div>
