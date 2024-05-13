@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import gallery1 from './assets/images/gallery1.jpeg';
 import gallery2 from './assets/images/gallery2.jpeg';
