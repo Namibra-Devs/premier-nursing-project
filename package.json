@@ -2,6 +2,7 @@
   "name": "premier-nursing-project",
   "version": "0.1.0",
   "private": true,
+  "homepage": "./",
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.5.2",
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
@@ -17,7 +18,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://Namibra-Devs.github.io/premier-nursing-project",
+  
   "scripts": {
      "predeploy": "npm run build",
      "deploy": "gh-pages -d build",
